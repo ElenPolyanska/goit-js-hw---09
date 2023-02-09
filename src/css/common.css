@@ -17,15 +17,19 @@ img {
   max-width: 100%;
 }
 
-button[data-start]{
+.start {
 margin-left: 40%;
 }
-button[data-stop],
-button[data-start]{
+.start,
+.stop {
   width: 140px;
   height: 60px;
   margin-top: 10%;  
   border-radius: 4px;
   font-size: 20px;
+}
+
+body {
+  background-image: url(../images/background-ice-desk-2x.png);
 }
 
