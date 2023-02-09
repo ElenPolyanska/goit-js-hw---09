@@ -17,10 +17,10 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
     if (selectedDates[0] < new Date()) {
-      Notiflix.Notify.failure('Please choose a date in the future');
+      Notiflix.Notify.failure('Хей! Годі дивитися у минуле, все найцікавіше у майбутньому *;)');
       btnStart.disabled = true;
     } else {
-      Notiflix.Notify.success('Good! Click "Start"');
+      Notiflix.Notify.success('Ой! Невже все запрацювало? ;))');
       btnStart.disabled = false;
     }
   },

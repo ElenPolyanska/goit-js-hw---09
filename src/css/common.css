@@ -33,3 +33,11 @@ body {
   background-image: url(../images/background-ice-desk-2x.png);
 }
 
+.timer {
+  display: flex;
+}
+.value {
+  font-size: 26px;
+  color: 'aloha'
+}
+
