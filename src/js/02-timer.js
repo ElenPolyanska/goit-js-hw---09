@@ -51,11 +51,11 @@ btnStart.addEventListener('click', () => {
       minutes.textContent = addLeadingZero(timeObject.minutes);
       seconds.textContent = addLeadingZero(timeObject.seconds);
       if (countdown <= 10000) {
-        timerHtml.style.color = 'tomato';
+        timerHtml.style.color = 'frenzy';
       }
     } else {
       Notiflix.Notify.success('Сумно, що все закінчилось *:(');
-      timerHtml.style.color = 'black';
+      timerHtml.style.color = 'aloha';
       clearInterval(timer);
     }
   }, 1000);});
