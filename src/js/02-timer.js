@@ -55,7 +55,7 @@ btnStart.addEventListener('click', () => {
       }
     } else {
       Notiflix.Notify.success('Сумно, що все закінчилось *:(');
-      timerHtml.style.color = 'cyan2';
+      timerHtml.style.color = 'black';
       clearInterval(timer);
     }
   }, 1000);});
