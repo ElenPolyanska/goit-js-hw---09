@@ -11,7 +11,9 @@ body {
   color: #212121;
   line-height: 1.5;
 }
-
+ul {
+  list-style: none;
+}
 img {
   display: block;
   max-width: 100%;
@@ -25,7 +27,7 @@ margin-left: 40%;
   width: 140px;
   height: 60px;
   margin-top: 10%;  
-  border-radius: 4px;
+  border-radius: 50%;
   font-size: 20px;
 }
 
@@ -35,10 +37,12 @@ body {
 
 .timer {
   display: flex;
+  margin-top: 20px;
 }
 .field {
   display: flex;
   flex-direction: column-reverse;
+  margin-right: 10px;
 }
 .value {
   font-size: 26px;
