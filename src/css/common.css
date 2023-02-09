@@ -14,9 +14,15 @@ body {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: dotted;
+}
 img {
   display: block;
   max-width: 100%;
+}
+input {
+  border-radius: 4px;
 }
 
 .start {
@@ -25,7 +31,7 @@ margin-left: 40%;
 .start,
 .stop {
   width: 140px;
-  height: 60px;
+  height: 140px;
   margin-top: 10%;  
   border-radius: 50%;
   font-size: 20px;
@@ -45,7 +51,7 @@ body {
   margin-right: 10px;
 }
 .value {
-  font-size: 26px;
+  font-size: 36px;
   color: 'aloha'
 }
 
