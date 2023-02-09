@@ -36,6 +36,10 @@ body {
 .timer {
   display: flex;
 }
+.field {
+  display: flex;
+  flex-direction: column-reverse;
+}
 .value {
   font-size: 26px;
   color: 'aloha'

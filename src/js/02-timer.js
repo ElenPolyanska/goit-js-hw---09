@@ -17,7 +17,7 @@ const options = {
   minuteIncrement: 1,
   onClose(selectedDates) {
     if (selectedDates[0] < new Date()) {
-      Notiflix.Notify.failure('Хей! Годі дивитися у минуле, все найцікавіше у майбутньому *;)');
+      Notiflix.Notify.failure('Хей! Годі дивитись у минуле, все найцікавіше попереду *;)');
       btnStart.disabled = true;
     } else {
       Notiflix.Notify.success('Ой! Невже все запрацювало? ;))');
@@ -54,7 +54,7 @@ btnStart.addEventListener('click', () => {
         timerHtml.style.color = 'tomato';
       }
     } else {
-      Notiflix.Notify.success('Countdown finished');
+      Notiflix.Notify.success('Сумно, що все закінчилось *:(');
       timerHtml.style.color = 'black';
       clearInterval(timer);
     }
